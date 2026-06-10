@@ -270,7 +270,7 @@ class IndexApp {
             else {
                 this.send_btn.classList.remove("active");
             }
-            this.dbModeCaption.innerHTML = targetState ? "Глобальний" : "Локальний";
+            this.dbModeCaption.innerHTML = targetState ? "Глобал" : "Локал";
         }
     }
     // перемикає безпечний режим
