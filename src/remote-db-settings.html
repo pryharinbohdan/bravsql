@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BravSQL</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <a href="./index.html" id="back-to-home-page-arrow-wrapper">
+        <svg viewBox="4 4 8 8" xmlns="http://www.w3.org/2000/svg" class="bi bi-arrow-right-short"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg>
+    </a>
+
+    <div class="main-elem">
+        <div class="cf-page-input-wrapper">    
+            <h2>
+                Cloudflare API Key
+            </h2>
+            <input id="input-cf-api-key" type="password" placeholder="Your API Key">
+            <p>Current API Key: <span id="cf-api-key-caption"></span></p>
+        </div>
+        <div class="cf-page-input-wrapper">    
+            <h2>
+                Cloudflare D1 DB id
+            </h2>
+            <input id="input-cf-db-id" placeholder="Database id">
+        </div>
+        <div class="cf-page-input-wrapper">    
+            <h2>
+                Cloudflare account id
+            </h2>
+            <input id="input-cf-account-id" placeholder="Your account id">
+        </div>
+        <div class="cf-page-input-wrapper">    
+            <h2>
+                Proxy URL
+            </h2>
+            <input id="input-proxy-url" placeholder="http://your.domain/">
+        </div>
+    </div>
+
+   
+    <script type="module" src="./js/cloudflare-settings.js"></script>
+
+</body>
+</html>
