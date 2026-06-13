@@ -75,7 +75,7 @@ class SqlWorkerInside {
     getCurrentDb(): any {
         const db = this.databases.get(this.currentDbName);
         if (!db) {
-            throw new Error('Жодна база даних зараз не активна');
+            throw new Error('Жодна база даних зараз не активна, спробуйте зачекати або перезавантажити сторінку. Якщо це не допомогло - переконайтеся, що у вас відкрита лише одна вкладка цієї веб-сторінки в браузері.');
         }
         return db;
     };
