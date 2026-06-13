@@ -63,7 +63,7 @@ class SqlWorkerInside {
     getCurrentDb() {
         const db = this.databases.get(this.currentDbName);
         if (!db) {
-            throw new Error('No database is currently active');
+            throw new Error("No database is currently active, try waiting or reloading the page. If that doesn't work, make sure you only have one tab of this web page open in your browser.");
         }
         return db;
     }
