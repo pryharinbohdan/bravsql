@@ -1,4 +1,7 @@
-# BravSQL
+<div align="center">
+<img src="./media/logo.svg" height="200">
+<h1>BravSQL</h1>
+</div>
 
 > **Local-first SQLite editor** — a web application based on WASM and OPFS implementations of SQLite for the browser.
 
@@ -126,16 +129,16 @@ The application supports connecting to any backend that returns a response in th
 
 ### Demo
 
-- ![](./media/autocomplete.gif)
+- ![](./media/en/autocomplete.gif)
 - Syntax highlighting while typing
 - Autocomplete
-![](./media/db-switching.gif)
+![](./media/en/db-switching.gif)
 - Switching between local databases
-![](./media/console-output.png)
+![](./media/en/console-output.png)
 - Console window (table, empty result, error)
-![](./media/settings-menu.gif)
+![](./media/en/settings-menu.gif)
 - Settings menu (modes, remote DB connection, table cloning)
-![](./media/modal.gif)
+![](./media/en/modal.gif)
 - Modal windows and alerts
 
 -----

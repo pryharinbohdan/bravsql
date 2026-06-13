@@ -1,4 +1,7 @@
-# BravSQL
+<div align="center">
+<img src="./media/logo.svg" height="200">
+<h1>BravSQL</h1>
+</div>
 
 > **Local-first SQLite editor** — веб-застосунок на базі WASM та OPFS реалізації SQLite для браузера.
 
@@ -126,16 +129,16 @@ Web Workers, OPFS
 
 ### Демонстрація
 
-- ![](./media-uk/autocomplete.gif)
+- ![](./media/uk/autocomplete.gif)
 - Підсвітка синтаксису під час введення
 - Автодоповнення
-![](./media-uk/db-switching.gif)
+![](./media/uk/db-switching.gif)
 - Перемикання між локальними базами даних
-![](./media-uk/console-output.png)
+![](./media/uk/console-output.png)
 - Вікно консолі (таблиця, порожній результат, помилка)
-![](./media-uk/settings-menu.gif)
+![](./media/uk/settings-menu.gif)
 - Меню налаштувань (режими, підключення до віддаленої БД, клонування таблиці)
-![](./media-uk/modal.gif)
+![](./media/uk/modal.gif)
 - Модальні вікна та алерти
 
 -----
