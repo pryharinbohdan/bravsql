@@ -126,7 +126,7 @@ Web Workers, OPFS
 
 ### Демонстрація
 
-![](./media-uk/autocomplete.mp4)
+![](./media-uk/autocomplete.gif)
 - Підсвітка синтаксису під час введення
 - Автодоповнення
 ![](./media-uk/db-switching.mp4)
