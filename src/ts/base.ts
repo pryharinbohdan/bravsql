@@ -804,6 +804,7 @@ export class SqlWorker {
                     databases.push({db_path: data.payload.db_name, created: this.getCurrentISOTime()});
                     localStorage.setItem("local_databases", JSON.stringify(databases));
                 }
+                this.showDBList();
                 break;
 
             case 'error':
@@ -863,6 +864,14 @@ export class SqlWorker {
 
     showDBList() {
         if (this.databases_select) {
+            const select_children = Array.from(this.databases_select.children);
+
+            select_children.forEach((child: Element, index: number) => {
+                if (index > 0) {
+                    child.remove();
+                }
+            })
+
             this.databases = JSON.parse(this.getDBList());
             this.databases.forEach((obj: any) => {
                 const option = document.createElement('option');
