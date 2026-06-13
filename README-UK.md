@@ -129,13 +129,13 @@ Web Workers, OPFS
 ![](./media-uk/autocomplete.gif)
 - Підсвітка синтаксису під час введення
 - Автодоповнення
-![](./media-uk/db-switching.mp4)
+![](./media-uk/db-switching.gif)
 - Перемикання між локальними базами даних
 ![](./media-uk/console-output.png)
 - Вікно консолі (таблиця, порожній результат, помилка)
-![](./media-uk/settings-menu.mp4)
+![](./media-uk/settings-menu.gif)
 - Меню налаштувань (режими, підключення до віддаленої БД, клонування таблиці)
-![](./media-uk/modal.mp4)
+![](./media-uk/modal.gif)
 - Модальні вікна та алерти
 
 -----
