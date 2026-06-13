@@ -173,5 +173,5 @@ python -m http.server 7420
 -----
 
 <div align="center">
-  <a href="https://bravsql.pages.dev">🚀 Спробувати зараз</a>
+  <h2><a href="https://bravsql.pages.dev">🚀 Спробувати зараз</a></h2>
 </div>
