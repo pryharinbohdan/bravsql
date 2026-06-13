@@ -529,7 +529,6 @@ td, th {
 
 #logo-area {
     position: relative;
-    height: 30px;
     & h1 {
         margin: 0;
         padding: 0;
@@ -541,7 +540,7 @@ td, th {
         top: 0;
     }
     & svg {
-        position: absolute;
+        position: relative;
         left: 0;
         top: 0;
         z-index: 0;
@@ -569,14 +568,11 @@ td, th {
         height: 27px;
         transform: scaleX(-1);
         filter: drop-shadow(0 0 3px var(--run-btn-bg));
-        & path {
-            fill: var(--basic-text-color);
-        }
     }
 }
 
 main {
-    margin: 60px 0;
+    margin: 0;
 }
 
 .main-elem {
