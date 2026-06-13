@@ -168,7 +168,7 @@ python -m http.server 7420
 
 ## Ліцензія
 
-*(буде додано)*
+[MIT](./LICENSE)
 
 -----
 
