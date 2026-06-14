@@ -135,9 +135,9 @@ The application supports connecting to any backend that returns a response in th
 ![](./media/en/db-switching.gif)
 - Switching between local databases
 ![](./media/en/console-output.png)
-- Console window (table, empty result, error)
+- Console window
 ![](./media/en/settings-menu.gif)
-- Settings menu (modes, remote DB connection, table cloning)
+- Settings menu
 ![](./media/en/modal.gif)
 - Modal windows and alerts
 
